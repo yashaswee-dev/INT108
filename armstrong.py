@@ -2,7 +2,7 @@ def getInput(): #Function to take User Input
     usrInput = int(input("Enter an integer to test : "))
     return usrInput
 
-def isArmstrong(testCase): #Function to test if the given testCase is Perfect or NOT
+def isArmstrong(testCase): #Function to test if the given testCase is Armstrong or NOT
     sum = 0 #Sum Variable to store ongoing sum
     length = len(str(testCase)) #length variable to store the length of the integer
     for digit in str(testCase):
